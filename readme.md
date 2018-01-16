@@ -1,27 +1,28 @@
-#Invite Referral System
+# Invite Referral System
 
 An easy to implement script to create a referral system.
 
-##SQL Setup
-###"referrals" table
+## SQL Setup
+### "referrals" table
+```
 id INT(11) PRI AUTO_INCREMENT
-
 sendinguserid INT(11)
-
 newuserid INT(11)
+```
 
-###"users" table
+### "users" table
+```
 id INT(11) PRI AUTO_INCREMENT
-
 email VARCHAR(100)
+```
 
-##Files
+## Files
 * save.php: Records user information and generates a referrral link
 * form.php: Allows user to enter email address, records referral number if applicable
 * config.php: Sets database information and base URL for the website
 * status.php: Allows user to check the number of referrals associated with their account
 
-##Licence
+## Licence
 The MIT License (MIT)
 
 Copyright (c) 2013 Phil Fishbein
